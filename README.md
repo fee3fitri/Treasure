@@ -38,7 +38,8 @@ Logged in users can create, read, update, and delete their own events. An intera
 ![create_event](https://s9.gifyu.com/images/create_event47c6d01a4d76800d.gif)
 
 Code Snippet: Find address of the first pin of the map 
-```
+
+```javascript
 const geocoder = new window.google.maps.Geocoder();
 
 let address = await geocoder.geocode({location: firstPin.location});
